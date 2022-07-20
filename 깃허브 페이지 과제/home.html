@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -183,3 +184,188 @@ input::placeholder{
     
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        /* Style the top navigation bar */
+body {
+    background-color: #333;
+}
+h1{
+    font-size: 50px;
+}
+.home a{
+    margin-left: 8px;
+    margin-top: 5px;
+    background: url(./logo.png);
+    background-size: contain;
+    width: 8px;
+    height: 8px;
+    display : block;
+    text-indent : -9999px;
+}
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Style the topnav links */
+.nav a {
+    
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.nav a:hover {
+    
+    color: gray;
+}
+.leftnav a{
+    float: left;
+}
+.rightnav, .search a{
+    float: right;
+}
+.search {
+    
+    padding: 5px;
+    background-color: rgb(101, 101, 101);
+    opacity: 0.3;
+    border-radius: 10px;
+}
+.search:focus{
+    background-color: white;
+    opacity: 1;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+.search-input{
+    
+    font-size: 16px;
+    border: 0px;
+}
+.search-input:focus{
+    outline: none;
+    opacity: 1;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main {
+    float: left;
+    padding-left: 150px;
+    padding-top: 60px;
+    width: 65%;
+}
+.sub {
+    float: left;
+    width: 35%;
+    padding-left: 40px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.search-input{
+    font-size: 16px;
+    background-color: white;
+    
+}
+.user-info{
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+.signup-input{
+    width:300px;
+    height:30px;
+    background-color: white;
+    border:1px solid #bebebe;
+    
+    
+}
+.signup-input:focus{
+    width:300px;
+    height:30px;
+    font-size: 15px;
+    background-color: rgb(239, 252, 255);
+    border:1px solid #bebebe;
+    outline: none;
+}
+.signup-btn{
+    border-radius: 5px;
+    background-color: #4CAF50;
+    width: 250px;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: auto;
+}
+.card a{
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="leftnav">
+            <div class="home">
+                <a href="home.html">Home</a>
+            </div>
+            
+            <a href="#why">Why GitHub?</a>
+            <a href="#team">Team</a>
+            <a href="#enterprise">Enterprise</a>
+            <a href="#explore">Explore</a>
+            <a href="#market">Marketplace</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+    
+       <div class="rightnav">
+           <a href="#signup" style="float: right;">Sign up</a>
+           <a href="#signin" style="float: right;">Sign in</a>
+          <div class="search" style="float: right; margin-top: 10px;">
+              <input class="search-input" type="text"  style="background-color:transparent;" placeholder="Search GitHub">
+              <button>/</button>
+          </div>
+          
+        </div>
+    </div>
+    <div id="grid">
+        <div class="main">
+            <h1 style="color: white;">Built for <br>developers</h1>
+            <p style="color: white;">GitHub is a development platform inspired by the way you work. From <strong>open source </strong> to <strong>business</strong>, you can host and review code, manage projects, and build software alongside 50million developers.</p>
+        </div>
+        <div class="sub">
+            <div class="card">
+                <p class="user-info">Username</p>
+                <input class="signup-input" type="text" name="user_name">
+                <p class="user-info">Email</p>
+                <input class="signup-input" type="text" name="email">
+                <p class="user-info">Password</p>
+                <input class="signup-input" type="text" name="password">
+                <p style="font-size: 12px">Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter. <a href="#learn" target="_blank">Learn more</a>.</p>
+                <button class="signup-btn">Sign up for GitHub</button>
+                <p style="font-size: 10px">By creating an account, you agree to the <a href="#terms" target="_blank">Terms of Service</a>. For more information about GitHub's privacy practices, see the GitHub <a href="#privacy" target="_blank">Privacy Statement</a>. We'll occasionally send you account-related emails.</p>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+>>>>>>> 5790a855c6ef570cca8d6788bc64fd58446ab8ed
