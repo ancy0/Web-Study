@@ -35,7 +35,7 @@
   padding-top: 10px;
 }
 
-.Heart .heart {
+#heartBtn1 {
   margin-right: 14px;
 border: none; 
 background: url(./images/heart1.png);
@@ -45,7 +45,17 @@ height: 22px;
 text-indent : -9999px;
 }
 
-.Heart .comment {
+#heartBtn2 {
+  margin-right: 14px;
+  border: none; 
+  background: url(./images/heart2.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+
+#commentBtn {
   margin-right: 10px;
   border: none; 
   background: url(./images/comment.png);
@@ -54,7 +64,7 @@ text-indent : -9999px;
   height: 22px;
   text-indent : -9999px;
 }
-.Heart .share{
+#shareBtn {
   margin-right: 16px;
   border: none; 
   background: url(./images/share.png);
@@ -64,7 +74,7 @@ text-indent : -9999px;
   text-indent : -9999px;
 }
 
-.Heart .tag {
+#tagBtn {
   margin-right: 16px;
   border: none; 
   background: url(./images/tag.png);

@@ -2,6 +2,11 @@ import React, { useState } from "react";
 
 const Heart = ({ initialValue }) => {
   const [count, setCount] = useState(initialValue);
+  const [isClick, setIsClick] = useState(false);
+  const toggleIsClick = () => {
+    setCount(count + 1);
+    setIsClick(!isClick);
+  };
 
   const onIncrease = () => {
     setCount(count + 1);
@@ -9,12 +14,22 @@ const Heart = ({ initialValue }) => {
   return (
     <div className="Heart">
       <div>
-        <button className="heart" onClick={onIncrease}>
-          heart
-        </button>
-        <button className="comment">comment</button>
-        <button className="share">share</button>
-        <button className="tag" style={{ float: "right" }}>
+        {isClick ? (
+          <>
+            <button id="heartBtn1" onClick={onIncrease}>
+              heart
+            </button>
+          </>
+        ) : (
+          <>
+            <button id="heartBtn2" onClick={toggleIsClick}>
+              !heart
+            </button>
+          </>
+        )}
+        <button id="commentBtn">comment</button>
+        <button id="shareBtn">share</button>
+        <button id="tagBtn" style={{ float: "right" }}>
           tag
         </button>
       </div>

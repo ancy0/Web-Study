@@ -7,8 +7,8 @@ const CommentList = ({ onEdit, onRemove, commentList }) => {
         <button className="profile">profile</button>
         <span className="user">Cha</span>
         <span>
-          신촌 현대백화점에서 발견!! 내 최애 이모티콘 익명이! 깨꾹이??도 처음
-          봤는데 둘다 얼마나 귀여운지 (❁´▽`❁)*✲ﾟ*
+          신촌 현대백화점에서 찍은 익명이 사진 + 댓글 달기, 수정, 삭제, 좋아요
+          클릭 과제 (❁´▽`❁)
         </span>
       </div>
       <div>
