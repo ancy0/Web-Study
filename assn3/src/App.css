@@ -1,0 +1,210 @@
+.App {margin:0 auto;
+}
+
+.App ::-webkit-scrollbar{
+  width: 0 !important;
+  display: none;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.CommentEditor {
+  text-align:center;
+  border-top: 1px solid lightgray; 
+  padding-top: 10px;
+}
+
+.CommentEditor textarea {width: 300px; height: 20px;}
+
+.CommentEditor textarea:focus{outline: none;}
+
+.CommentEditor .emotion {
+  margin-right: 16px;
+  border: none; 
+  background: url(../public/images/smile.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+
+.Heart{
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+#heartBtn1 {
+  margin-right: 14px;
+border: none; 
+background: url(../public/images/heart1.png);
+background-size: 22px;
+width: 22px;
+height: 22px;
+text-indent : -9999px;
+}
+
+#heartBtn2 {
+  margin-right: 14px;
+  border: none; 
+  background: url(../public/images/heart2.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+
+#commentBtn {
+  margin-right: 10px;
+  border: none; 
+  background: url(../public/images/comment.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+#shareBtn {
+  margin-right: 16px;
+  border: none; 
+  background: url(../public/images/share.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+
+#tagBtn {
+  margin-right: 16px;
+  border: none; 
+  background: url(../public/images/tag.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
+
+.Heart h4 {
+  font-size: 16px;
+}
+
+.CommentList{
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.CommentList {
+  padding-left: 0px;
+}
+
+.CommentList .profile {
+  margin-left: 0px;
+  margin-right: 16px;
+  margin-bottom: 1px;
+  border: none; 
+  background: url(../public/images/profile2.png);
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  text-indent : -9999px;
+}
+
+.CommentList .user {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.CommentItem {
+  padding: 5px;
+  margin-top: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  margin-right:0px;
+  text-align: left;
+  overflow: auto;
+}
+
+.CommentItem .profile {
+  margin-left: 0px;
+  margin-right: 16px;
+  border: none; 
+  background: url(../public/images/profile.jpg);
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  text-indent : -9999px;
+}
+
+.CommentItem .user {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.CommentItem .smallHeart {
+  float: right;
+  margin-right: 0px;
+  border: none; 
+  background: url(../public/images/heart2.png);
+  background-size: 11.7px;
+  width: 11.7px;
+  height: 11.7px;
+  text-indent : -9999px;
+}
+
+.CommentItem .date {
+  color: gray;
+  font-size: 13px;
+}
+.CommentItem button {
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.Author { 
+  margin-bottom: 5px; 
+  text-align: left;
+  vertical-align: middle;
+  height:40px;
+  border-bottom: 1px solid lightgray;}
+
+.Author .profile {
+  margin-left: 0px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  border: none; 
+  background: url(../public/images/profile2.png);
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  text-indent : -9999px;
+}
+
+.Author span {
+  margin-bottom: 50px;
+}
+
+.Author .user {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.Author .follow {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.Author .more {
+  margin-right: 16px;
+  border: none; 
+  background: url(../public/images/more.png);
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  text-indent : -9999px;
+}
